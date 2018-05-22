@@ -22,11 +22,7 @@ class numerosMultiplos
 				echo"Buzz Número :". $i."</br>";
 			}
 		}
-		echo'OIIIII TESTE';
 	}
-
-	
-
 }
 
 	$multiplos = new numerosMultiplos();
