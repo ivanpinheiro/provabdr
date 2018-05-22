@@ -177,7 +177,7 @@ e o banco de dados tenha sido criado e alterado os parâmetros de conexão, apen
 do seu navegador a seguinte url:
 
 ```
-http://localhost/teste-tecnico/teste-3/
+http://localhost/provabdr/questao-3/
 ```
 
 ## Tarefa do teste-4
