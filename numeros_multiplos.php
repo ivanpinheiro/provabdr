@@ -23,9 +23,6 @@ class numerosMultiplos
 			}
 		}
 	}
-
-	
-
 }
 
 	$multiplos = new numerosMultiplos();
