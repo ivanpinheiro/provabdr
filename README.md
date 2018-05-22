@@ -1,7 +1,7 @@
-#Teste técnico para vaga de Desenvolvedor PHP Pleno.
+#Teste de Conhecimentos – Analista Desenvolvedor PHP
 
 ###Todos os requisitos do escopo dos testes foram implementados inclusive os considerados diferenciais,
-###todo o código escrito atende as regras:
+###todo o código escrito atende as seguintes normas:
 -----------------------------------
 
 1. PSR-1: Basic Coding Standard
@@ -13,8 +13,9 @@
 ## Tarefa do teste-1
 
 Escreva um programa que imprima números de 1 a 100. Mas, para múltiplos de 3 imprima
-“Fizz” gagasdasdasd em vez do número e para múltiplos de 5 imprima “Buzz”. Para números múltiplos
+“Fizz” em vez do número e para múltiplos de 5 imprima “Buzz”. Para números múltiplos
 de ambos (3 e 5), imprima “FizzBuzz”.
+
 
 ### Solução:
 Criação de uma classe com um método simples para realizar a tarefa, foi feito com parâmetrização
