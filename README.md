@@ -20,8 +20,7 @@ de ambos (3 e 5), imprima “FizzBuzz”.
 ### Solução:
 Criação de uma classe com um método simples para realizar a tarefa, foi feito com parâmetrização
 apenas pra representar o dinamismo do uso de uma classe, que no caso desta implementação a classe
-poderia ser instânciada em vários locais e executar a mesma tarefa para um intervalo diferente a
-cada uso.
+poderia ser instânciada em vários locais e executar a mesma tarefa para um intervalo diferente de números multiplos.
 
 ### Instalação e teste
 
@@ -32,7 +31,7 @@ cada uso.
 Após ter clonado o repositório na raiz de um servidor apache funcional com PHP mínimo 5.3 instalado, apenas digite na barra de endereços do seu navegador a seguinte url:
 
 ```
-http://localhost/teste-tecnico/teste-1/
+http://localhost/provabdr/numeros_multiplos.php
 ```
 
 ## Tarefa do teste-2
@@ -57,14 +56,11 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
 /**
  * [redirect função para redirecionamento]
  * redireciona a aplicação para a url do google
- * Foi criado uma classe visando a implementação de testes unitários.
- * Foi retirado a função exit() pois a mesma não é adequada, para uso principalmente
- * em casos que serão desenvolvidos testes unitários, também porquê o script é encerrado
- * naturalmente quando não há nenhuma instrução posterior ao cabeçalho. Usei como referência
- * a seguinte discussão em um tópico no stackoverflow, que se tratava exatamente do uso da função
- * exit() após um a escrita de um header.
+ * Foi retirado a função exit() pois a mesma não é uma execução aceitável, pois a aplicação será encerrada logo após o 
+ * redirecionamento da url do google. Foi utilizado como referência um tópico de discussão no site stackoverflow, comentando sobre * o uso da função exit() após a função header, segue o link para conhecimento:
  * http://stackoverflow.com/questions/3553698/php-should-i-call-exit-after-calling-location-header
  */
+
 
 class Navigation
 {
@@ -106,11 +102,11 @@ class MyUserClass
 
 ### Solução: 
 
-Alterado o nome da classe para o mesmo nome da entidade à qual a mesma faz
-referência. Retirei o nome MyUserClass pois não é recomendado combinar palavras
+Foi alterado o noma da classe para o mesmo nome da entidade à qual a mesma faz. 
+Retirei o nome MyUserClass pois não é recomendado combinar palavras
 revervadas da linguagem ao declarar classes métodos e variáveis, mesmo que neste
 caso o interpretador aceite, também o myUserClass faz referência a uma instância da entidade
-e não a entidade em sí. Nome foi adequado por simples questão de boas práticas de cleancode
+e não a entidade em sí. O nome da classe foi alterado para seguir as normas de boas práticas de cleancode
 e codestyle.
 
  Também foi adequada a conexão, utilizando o PADRÃO PDO e tratando as entradas do banco com Prepared Statements
@@ -118,18 +114,10 @@ e codestyle.
 
  ```php
 <?php
-/**
- * Alterado o nome da classe para o mesmo nome da entidade à qual a mesma faz
- * referência. Retirei o nome MyUserClass pois não é recomendado combinar palavras
- * revervadas da linguagem na ao declarar classes métodos e variáveis, mesmo que neste
- * caso o interpretador aceite, também o myUserClass faz referência a uma instância da entidade
- * e não a entidade em sí. Nome adequado por simples questão de boas práticas de cleancode
- * e codestyle.
- */
 class User
 {
 	/**
-	 * [getUserList método que busca todos usuários da table user]
+	 * [getUserList método que retorna todos usuários da table user]
 	 * @return [array] [lista de usuários]
 	 */
 	public function getUserList()
