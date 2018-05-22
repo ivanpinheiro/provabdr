@@ -202,6 +202,7 @@ Diferenciais:
 - A API Rest foi desenvolvida utilizando o slim 3 e possuí os seguintes métodos
 
 ```php
+	
 	function insertTask();
     function syncServer();
     function allTasks();
