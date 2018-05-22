@@ -188,7 +188,7 @@ prioridade.
 
 Desenvolver utilizando:
     * Linguagem PHP ou framework CakePHP;
-	(Por se tratar de um simples micro-serviço optei por usar um Micro-Framework, mais indicado para desenvolvimento de
+	(Por se tratar de um simples micro-serviço foi utilizado usar um Micro-Framework, mais indicado para desenvolvimento de
 	APIs por possuir um kernel mais enxuto que dispensa recursos voltados para camadas de visão neste caso foi
 	utilizado o Slim 3).
     * Banco de dados MySQL;
@@ -208,7 +208,7 @@ Diferenciais:
     function editTask();
     function removeTask();
 ```
-- Interface para gerênciamento das tarefas foi criada utilizando o framework Bootstrap, junto com o
+- Interface para gerenciamento das tarefas foi criada utilizando o framework Bootstrap, junto com o
 pacote de Icons Font Awesome, para a interface DragAndDrop e suas interações foi usado o módulo angular Sortable
 ng-sortable.
 
@@ -229,7 +229,7 @@ com o banco de dados as constantes DB_USER e DB_PASSWORD que se encontram no arq
 feito isto então acesse em seu navegador a seguinte url:
 
 ```
-http://localhost/teste-tecnico/teste-4/controle-tarefas
+http://localhost/provabdr/questao-4/controle-tarefas
 ```
 
 Para mudar a ordem de prioridade de uma tarefa clique no ícone de reordenação arraste o bloco até a posição desejada 

@@ -17,9 +17,11 @@ class Navigation
 }
 
 $nav = new Navigation;
-print_r($nav);die;
+print_r($nav->redirect());die;
 if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
     $nav->redirect();
 } elseif (sset($_COOKIE['Loggedin']) && $_COOKIE['Loggedin'] == true) {
     $nav->redirect();
 }
+?>
+
