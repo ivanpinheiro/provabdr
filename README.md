@@ -224,7 +224,7 @@ alguns recursos do AngularJS 1.3, e se encontram no arquivo app.js dentro da pas
 ### Instalação e teste
 
 Uma vez que o repositório esteja clonado na raiz de um servidor apache funcional com PHP mínimo 5.3 instalado,
-importe o arquivo tasks.sql no seu banco de dados, o arquivo se encontra na raiz na pasta *teste-4*, considerando
+importe o arquivo tasks.sql no seu banco de dados, o arquivo se encontra na raiz na pasta *questao-4*, considerando
 que o banco de dados tenha sido criado com o nome definido no script sql, apenas altere as credenciais de conexão
 com o banco de dados as constantes DB_USER e DB_PASSWORD que se encontram no arquivo env.php na raiz da pasta *srv* 
 feito isto então acesse em seu navegador a seguinte url:
